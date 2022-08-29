@@ -14,6 +14,8 @@ image	VARCHAR2(125)
 DROP TABLE tbl_books;
 SELECT * FROM tbl_books;
 
+DESC tbl_books;
+
 INSERT ALL
 INTO tbl_books(isbn, title, author, publisher)
 VALUES('0001', '자바', '홍길동', '우리출판사')
